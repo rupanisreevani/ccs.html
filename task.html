@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .parent p{
+            display: inline-block;
+        
+             
+        }
+        .child{
+            display: inline;
+            padding-left: 70%;
+        }
+        
+        .parent2{
+            width: 100%;
+            position: relative;
+        }
+        .parent2>.child1{
+            display: inline-block;
+            width: 20%; 
+        }
+        .parent2>.child1 img{
+            width: 100%;
+        }
+        .parent2>.child1 p{
+            position: absolute;
+            top: 0;
+            color: white;
+            background-color: black;
+        }
+        .parent3{
+            position: relative;
+            width: 100%;
+            margin: 50px;
+
+        }
+        .child2 img{
+            width:90%;
+        }
+       .parent3>.child2{
+            display:inline-block;
+            width: 20%;
+            
+        }
+        .parent4>label{
+            width: 1000%;
+
+        }
+        
+        .parent1>p{
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            color: white;
+            font-size: 56px;
+            padding: 10px 20px;
+        }
+        .parent1 b{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <P><b>BR</b>Architects</P>
+        <div class="child">
+            <P>Projects</P>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <div class="parent1">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+        <P><b>BR</b>&nbsp;Architects</P>
+    </div>
+        <p style="font-size: xx;">Projects</p><hr><br>
+
+        <div class="parent2">
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house5.jpg">
+                <p >summer House</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+                <p >Brick House</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+                <p >Renovated</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+                <p >Barn House</p>
+            </div>
+            </div>
+
+        <div class="parent2">
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+                <p>Summer House</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+                <p >Brick House</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+                <p>Renovated</p>
+            </div>
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+                <p>Barn House</p>
+            </div>
+          </div>
+          <div class="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="parent3">
+            <div class="child2">
+                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+                <p>John Doe</p>
+                <p>CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+
+            </div>
+            <div class="child2">
+                <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+                <p>John Doe</p>
+                <p>CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+
+
+            </div>
+            <div class="child2">
+                <img src="https://www.w3schools.com/w3images/team3.jpg">
+                <p>John Doe</p>
+                <p>CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+
+            </div>
+            <div class="child2">
+                <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+                <p>John Doe</p>
+                <p>CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+
+
+            </div>
+            <div class="parent4">
+                <p>Contact</p>
+                <p>Lets get in touch and talk about your next project.</p>
+                <label for="">
+                <input type="test" placeholder="Name"><br>
+                <input type="test" placeholder="Email"><br>
+                <input type="test" placeholder="SUbject"><br>
+                <input type="test" placeholder="Comment"><br>
+            </label>
+            <button >Send message</button>
+        </div>
+        <dvi class="parent5">
+            <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+
+        </dvi>
+        <p style="background-color: black;padding: 2% 40%;color: white;margin: 0%;"><centre>Powered by w3.css</centre></p>
+
+        </div>
+         
+
+
+
+</body>
+</html>
