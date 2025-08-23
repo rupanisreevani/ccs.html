@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            border-radius: 30px;
+            background-color: blue;
+            position: relative;
+            animation-name: anim;
+            animation-duration: 5s;
+            animation-delay:5s ;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes anim{
+            from{
+                background-color: blueviolet;
+                
+                height: 100px;
+                width: 100px;
+                border-radius: 30px;
+                border: 3px double;
+                left: 200px;
+
+            }
+            to{
+                background-color: burlywood;
+                height: 300px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
