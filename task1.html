@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sub{
+            background-color: aqua;
+            width: 100px;
+
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            margin-top: 5px;
+            padding: 10px;
+        }
+        .sub:hover .dropdown{
+            display: block;
+            border-top: 5px solid rebeccapurple;
+        }
+        .sub{
+            display: inline-block;
+            margin-left: 30px;
+            position: relative;
+            padding: 8px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="sub">courses
+            <div class="dropdown">
+            <p> GFG classroom program</p>
+            <p>DSA to Development</p>
+            <p>GATE 2026 Prep</p>
+            <p>Get 3LBm certifications</p>
+            <p>For working professionals</p>
+            <p>for student</p>
+            <P>Full stack development</P>
+            <p>Data science & ml program</p>
+            <p>all courses</p>
+            </div>
+        </div>
+        <div class="sub"> Tutorials
+            <div class="dropdown">
+                <P>python</P>
+                <P>java</P>
+                <p>dsa</p>
+                <p>ml&data science</p>
+                <p>interview corrner</p>
+                <p>programming languages</p>
+                <P>web development</P>
+            </div>
+        </div>
+        <div class="sub">Practice
+            <div class="dropdown">
+                <P>Practice coding problems</P>
+                <p>nation skillup-free courses</p>
+                <P>problem of the day</P>
+
+            </div>
+
+        </div>
+        <div class="sub">jobs
+            <div class="dropdown">
+                <p>Become a mentor</p>
+                <p>Apply now</p>
+                <p>Post jobs</p>
+                <p>job-a-thon: hiring</p>
+                <p>challenge</p>
+                <p>jobs updates</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
