@@ -1,0 +1,145 @@
+Great question 👍 Let’s go step by step.
+
+
+---
+
+🔹 What is Git?
+
+Git is a version control system used by developers to track changes in their code.
+
+It helps you:
+
+Keep history of your code (who changed what & when).
+
+Collaborate with others easily.
+
+Roll back to an earlier version if something goes wrong.
+
+
+
+👉 Think of it as a time machine for your code.
+
+
+---
+
+🔹 What is GitHub?
+
+GitHub is a cloud platform where you can store your Git repositories online.
+
+It provides:
+
+Remote storage for your Git projects.
+
+Collaboration with teammates (pull requests, issues, discussions).
+
+A community to share open-source projects.
+
+
+
+👉 Git = Tool
+👉 GitHub = Hosting service for Git repositories
+
+
+---
+
+🔹 Install GitHub (Actually Git)
+
+> GitHub itself is a website, you don’t install GitHub. You install Git on your computer, and then use GitHub as the online remote repository.
+
+
+
+✅ Step 1: Install Git
+
+Windows
+
+1. Go to: https://git-scm.com/downloads
+
+
+2. Download and install Git.
+
+
+3. During installation, keep default options.
+
+
+
+Linux (Ubuntu/Debian)
+
+sudo apt update
+sudo apt install git
+
+MacOS
+
+brew install git
+
+
+
+---
+
+✅ Step 2: Check Installation
+
+Open Command Prompt / Terminal and type:
+
+git --version
+
+You should see something like:
+
+git version 2.xx.x
+
+
+---
+
+🔹 Login to GitHub
+
+Step 1: Create an Account
+
+1. Go to https://github.com/.
+
+
+2. Click Sign up.
+
+
+3. Enter email → password → username → verify → finish signup.
+
+
+
+
+---
+
+Step 2: Configure Git with Your GitHub Account
+
+Run these commands in terminal (replace with your GitHub email & name):
+
+git config --global user.name "YourName"
+git config --global user.email "your@email.com"
+
+
+---
+
+Step 3: Authenticate (Login)
+
+Two ways:
+
+1. Using HTTPS + Personal Access Token (PAT) (Recommended)
+
+Generate a token:
+Go to GitHub → Settings → Developer settings → Personal Access Tokens → Tokens (classic) → Generate new token.
+
+Use it instead of password when pushing code.
+
+
+
+2. Using SSH Keys (Advanced, for frequent usage)
+
+Generate SSH key:
+
+ssh-keygen -t rsa -b 4096 -C "your@email.com"
+
+Add key to GitHub → Settings → SSH and GPG keys.
+
+
+
+
+
+
+✅ Now you can clone, push, and pull repositories from GitHub!
+
