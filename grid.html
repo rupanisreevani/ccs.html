@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 50vh;
+            /*gap: 20px;*/
+        }
+        .child1{
+            background-color: rgb(255, 115, 0);
+            grid-row-start: 1;
+            grid-row-end:3 ;
+            
+        }
+        .child2{
+            background-color: aqua;
+            grid-column-start: 2;
+            grid-column-end:4 ;
+        
+            
+
+        }
+        .child3{
+            background-color: blueviolet;
+            grid-column: 1/3;
+            
+        
+            
+        }
+        .child4{
+            background-color: brown;
+            grid-row: 2/4;
+
+        }
+        .child5{
+            background-color: chartreuse;
+            grid-row: 2/4;
+            grid-column: 3/4;
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">sreevani</div>
+        <div class="child2">sai</div>
+        <div class="child3">nani</div>
+        <div class="child4">sravain</div>
+        <div class="child5">divya</div>
+
+    </div>
+</body>
+</html>
