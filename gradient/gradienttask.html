@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+          
+        
+        #box1{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to bottom right,red,orange,blue);
+
+        }
+        #box2{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(orange,red);
+        }
+        #box3{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(red,yellow);
+
+        }
+        #box4{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to right,rgb(10,118,125),yellow );
+
+        }
+        #box5{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to right,rgb(71,87,203), green);
+        }
+        #box6{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(green,yellow,orange,red);
+        }
+        #box7{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(rgb(255,252,138),rgb(235,103,103),rgb(76,76,241));
+        }
+
+        
+        #box8{
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(rgb(107,10,242),rgb(244,141,220),rgb(54,172,246));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        
+
+
+
+    </div>
+</body>
+</html>
