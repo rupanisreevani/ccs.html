@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEANE</title>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      
+      color: #fff;
+    }
+
+    header {
+      width: 100%;
+    }
+    .main{
+        background-color: black;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #222;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .order-btn {
+      background: #ff6b2d;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px;
+      text-align: left;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      line-height: 1.6;
+      overflow: auto; /* fixes float collapsing */
+    }
+
+    /* image inside paragraph */
+    .hero p img {
+      float: right;
+      width: 1000px;
+      height: auto;
+      margin: 0 0 12px 18px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      background: #ff6b2d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="main"> 
+      <div class="navbar">
+        <h1 class="logo">FEANE</h1>
+        <div class="nav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BOOK TABLE</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <ion-icon name="person-outline" class="i1"></ion-icon>
+          <ion-icon name="cart-outline" class="i1"></ion-icon>
+          <ion-icon name="search-outline" class="i1"></ion-icon>
+          <a href="#" class="order-btn">order online</a>
+        </div>
+      </div>
+
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Fast Food Restaurant</h1>
+          <p>
+            <img src="https://themewagon.github.io/feane/images/hero-bg.jpg" alt="Food">
+            Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+            mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore,
+            sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+          </p>
+          <a href="#" class="btn">order now</a>
+        </div>
+      </section>
+    </div>
+  </header>    
+</body>
+</html>
